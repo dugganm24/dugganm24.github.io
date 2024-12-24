@@ -29,8 +29,8 @@ const Home = () => {
                         As a skilled developer with full-stack, embedded, and AI development experience, I’m passionate about making a meaningful impact in a new college grad position. Explore my latest projects to see how my skills and dedication can contribute to your team’s success.
                     </p>
                     <div>
-                        <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-[#00FFC8] bg-opacity-80 hover:scale-105 transform transition-all duration-200">Resume</button>
-                        <button className="px-6 py-3 w-full sm:w-fit rounded-full bg-transparent text-white border-4 border-[#00FFC8] mt-3 hover:scale-105 transform transition-all duration-200">Contact</button>
+                        <button className="px-10 py-3 w-full sm:w-fit rounded-full mr-4 bg-[#00FFC8] bg-opacity-80 hover:scale-105 transform transition-all duration-200">Resume</button>
+                        <button className="px-10 py-3 w-full sm:w-fit rounded-full bg-transparent text-white border-4 border-[#00FFC8] mt-3 hover:scale-105 transform transition-all duration-200">Contact</button>
                     </div>
                 </div>               
             </div>           
