@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const NavBar = () => {
     return (
-        <nav className="flex justify-between flex-wrap p-3">
+        <nav className="flex justify-between flex-wrap p-3 bg-[#121212]">
             <ul className="flex ml-auto">
                 <li className = "mr-6">
                     <Link href="/">Home</Link>
