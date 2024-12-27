@@ -5,6 +5,7 @@ import React, { useState } from "react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import MenuOverlay from "./MenuOverlay";
 import { usePathname } from "next/navigation";
+import Image from "next/image";
 
 const navLinks = [
     {
@@ -25,13 +26,19 @@ const NavBar = () => {
     const [navBarOpen, setNavbarOpen] = useState(false);
     const pathname = usePathname();
 
-    const closeMenu = () => setNavbarOpen(false); // Function to close the menu
+    const closeMenu = () => setNavbarOpen(false); // Function to close mobile menu
 
     return (
         <nav className="fixed top-0 left-0 right-0 z-50 bg-[#121212] bg-opacity-100 border-b border-[#33353F]">
             <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-4 py-2">
-                <Link href="/" className="text-xl md:text-5xl text-white font-semibold">
-                    LOGO
+                <Link href="/" onClick = {closeMenu}className="text-xl md:text-5xl text-white font-semibold">
+                    <Image 
+                        src="/images/logo.png" 
+                        alt="Logo" 
+                        width={60}  
+                        height={30}  
+                        className="object-contain" 
+                    />
                 </Link>
                 <div className="mobile-menu block md:hidden">
                     {!navBarOpen ? (
@@ -60,7 +67,7 @@ const NavBar = () => {
                                         pathname === link.path
                                             ? "text-white underline decoration-[#00FFC8] underline-offset-8 decoration-4"
                                             : "text-[#BFBCBC]"
-                                    } text-xl sm:text-2xl md:text-3xl hover:text-[#00FFC8]`}
+                                    } text-xl md:text-2xl hover:text-[#00FFC8]`}
                                 >
                                     {link.title}
                                 </Link>
@@ -70,7 +77,6 @@ const NavBar = () => {
                 </div>
             </div>
 
-            {/* Mobile menu */}
             {navBarOpen && (
                 <MenuOverlay links={navLinks} closeMenu={closeMenu} />
             )}
