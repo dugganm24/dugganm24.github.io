@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
     <body className="flex flex-col">
-      <div className="pb-28"> {/* Padding below NavBar */}
+      <div className="pb-24"> {/* Padding below NavBar */}
         <NavBar />
       </div>
       <main className="pb-4 px-4"> {/* Padding below children */}

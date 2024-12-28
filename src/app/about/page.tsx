@@ -1,12 +1,12 @@
 import React from 'react';
-import Home from '../../components/home/Home';
+import About from '../../components/about/About';
 
-const About = () => {
+export default function AboutPage() {
     return (
       <main className="flex min-h-screen flex-col bg-[#121212]">
-        <h1>About</h1>
-      </main>  
+        <div className="container mx-auto px-12 py-4">
+          <About />
+        </div> 
+      </main> 
     );
   }
-
-  export default About;
