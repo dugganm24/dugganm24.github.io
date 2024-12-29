@@ -1,9 +1,13 @@
 import React from 'react';
+import Projects from '../../components/projects/Projects';
 
-const Projects = () => {
+export default function AboutPage() {
     return (
-          <h1>Projects</h1>
+      <main className="flex min-h-screen flex-col bg-[#121212]">
+        <div className="container mx-auto px-12 py-4">
+          <Projects />
+        </div> 
+      </main> 
     );
   }
   
-  export default Projects;
