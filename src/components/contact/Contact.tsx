@@ -62,10 +62,10 @@ const Contact = () => {
                 </p>
                 <div className="socials flex flex-row gap-2">
                    <Link href="https://github.com/dugganm24">
-                        <Image src={GithubIcon} alt="Github Icon" />
+                        <Image className="hover:opacity-80" src={GithubIcon} alt="Github Icon" />
                     </Link>
                     <Link href="https://www.linkedin.com/in/mpduggan/">
-                        <Image src={LinkedinIcon} alt="Linkedin Icon" />
+                        <Image className="hover:opacity-80" src={LinkedinIcon} alt="Linkedin Icon" />
                     </Link> 
                 </div>
             </div>
