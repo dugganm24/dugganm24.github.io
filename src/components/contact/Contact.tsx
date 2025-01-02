@@ -52,7 +52,7 @@ const Contact = () => {
     }, [status]);
 
     return (
-        <section className="grid md:grid-cols-2 py-8 gap-4">
+        <section className="grid md:grid-cols-2 py-4 gap-4">
             <div>
                 <h2 className="text-4xl font-bold text-white mb-4 text-left">
                     Let&#39;s Connect

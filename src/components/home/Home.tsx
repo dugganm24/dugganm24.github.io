@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 const Home = () => {
     return (
-        <section className="pt-24">
+        <section className="py-4 lg:py-24">
             <div className="grid grid-cols-1 lg:grid-cols-12">
                 <div className="col-span-5 place-self-center mb-4 lg:mb-0">
                     <div className="rounded-full bg-[#00FFC8] w-[250px] h-[250px] lg:w-[325px] lg:h-[325px] relative"

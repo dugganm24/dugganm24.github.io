@@ -68,10 +68,10 @@ const Projects = () => {
 
     return (
         <>
-            <h2 className="text-center text-4xl font-bold text-white mt-4 mb-6 md:mb-8">
+            <h2 className="text-center text-4xl font-bold text-white mt-4 mb-4 md:mb-8">
                 My Projects
             </h2>
-            <div className="text-white flex flex-row justify-center items-center gap-2 py-6 mb-6 md:mb-8">
+            <div className="text-white flex flex-row justify-center items-center gap-2 py-2 mb-6 md:mb-8">
                 <ProjectTag 
                     onClick={handleTagChange} 
                     tag="All" 
