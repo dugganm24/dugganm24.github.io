@@ -147,7 +147,7 @@ const About = () => {
                             August 2021 – May 2025 | Worcester Polytechnic Institute (WPI) | 3.9 GPA
                         </p>
                         <p>
-                            Relevant coursework in embedded systems, completing a capstone project in AI development for a facial generator for a robotic interface                       
+                            Relevant coursework in embedded systems, completing a capstone project in AI development for a facial generator for a robotic interface.                     
                         </p>
                     </div>
                 </div>
