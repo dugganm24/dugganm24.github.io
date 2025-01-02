@@ -58,15 +58,15 @@ const Contact = () => {
                     Let&#39;s Connect
                 </h2>
                 <p className="text-[#BFBCBC] mb-4 max-w-md">
-                    As an upcoming new college grad, I’m currently looking for entry-level software engineering positions. My inbox is always open, don&#39;t hesitate to reach out.
+                    As an upcoming new college grad, I&#39;m currently looking for entry-level software engineering positions. My inbox is always open, don’t hesitate to reach out.
                 </p>
                 <div className="socials flex flex-row gap-2">
-                    <Link href="https://github.com/dugganm24">
+                   <Link href="https://github.com/dugganm24">
                         <Image src={GithubIcon} alt="Github Icon" />
                     </Link>
                     <Link href="https://www.linkedin.com/in/mpduggan/">
                         <Image src={LinkedinIcon} alt="Linkedin Icon" />
-                    </Link>
+                    </Link> 
                 </div>
             </div>
             <div>
@@ -118,7 +118,7 @@ const Contact = () => {
                             onChange={handleChange}
                             required
                             className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-                            placeholder="Let&#39;s talk about..."
+                            placeholder="Let's talk about..."
                         />
                     </div>
                     <button
@@ -128,8 +128,9 @@ const Contact = () => {
                         Send Message
                     </button>
                 </form>
-                {status && (
-                    <motion.div
+                   
+               {status && (
+                <motion.div
                         initial={{ opacity: 0, y: -10 }}
                         animate={{ opacity: 1, y: 0 }}
                         exit={{ opacity: 0, y: -10 }}
@@ -142,7 +143,7 @@ const Contact = () => {
                         }`}
                     >
                         <span>{status}</span>
-                    </motion.div>
+                    </motion.div> 
                 )}
             </div>
         </section>

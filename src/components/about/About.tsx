@@ -58,6 +58,8 @@ const About = () => {
             setTab(id);
         });
     };
+    
+    console.log(isPending);
 
     return (
         <section className="text-white">
@@ -79,6 +81,7 @@ const About = () => {
                 {/* Skills section */}
                 <div className="mt-8 md:mt-0 text-left flex flex-col h-full md:ml-32">
                     <h2 className="text-4xl font-bold text-white text-left">Skills</h2>
+                  
                     <div className="flex flex-row justify-start mt-4">
                         <TabButton selectTab={() => handleTabChange('languages')} active={tab === 'languages'}>
                             Languages
@@ -89,7 +92,7 @@ const About = () => {
                         <TabButton selectTab={() => handleTabChange('ai_ml')} active={tab === 'ai_ml'}>
                             AI/ML
                         </TabButton>
-                    </div>
+                    </div> 
                     <div className="mt-4">{TAB_DATA.find((t) => t.id === tab)?.content}</div>
                 </div>
             </div>
