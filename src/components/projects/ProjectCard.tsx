@@ -12,7 +12,11 @@ interface ProjectCardProps {
     tag: string[];
 }
 
+
+
 const ProjectCard: React.FC<ProjectCardProps> = ({ imgUrl, title, description, tag, gitUrl }) => {
+    console.log(tag);
+    
     return (
         <div>
             <div 

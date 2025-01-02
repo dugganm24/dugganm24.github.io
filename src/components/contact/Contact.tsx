@@ -55,10 +55,10 @@ const Contact = () => {
         <section className="grid md:grid-cols-2 py-8 gap-4">
             <div>
                 <h2 className="text-4xl font-bold text-white mb-4 text-left">
-                    Let's Connect
+                    Let&#39;s Connect
                 </h2>
                 <p className="text-[#BFBCBC] mb-4 max-w-md">
-                    As an upcoming new college grad, I’m currently looking for entry-level software engineering positions. My inbox is always open, don’t hesitate to reach out.
+                    As an upcoming new college grad, I’m currently looking for entry-level software engineering positions. My inbox is always open, don&#39;t hesitate to reach out.
                 </p>
                 <div className="socials flex flex-row gap-2">
                     <Link href="https://github.com/dugganm24">
@@ -118,7 +118,7 @@ const Contact = () => {
                             onChange={handleChange}
                             required
                             className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-                            placeholder="Let's talk about..."
+                            placeholder="Let&#39;s talk about..."
                         />
                     </div>
                     <button

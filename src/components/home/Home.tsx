@@ -22,12 +22,12 @@ const Home = () => {
                 </div> 
                 <div className="col-span-7 place-self-center text-center sm:text-left">
                     <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
-                        <span className="text-[#00FFC8]">Hello, I'm</span>
+                        <span className="text-[#00FFC8]">Hello, I&#39;m</span>
                         <br />
                         Michael Duggan
                     </h1>
                     <p className="text-[#BFBCBC] text-base sm:text-lg lg:text-xl mb-6">
-                        As a skilled developer with full-stack, embedded, and AI development experience, I’m passionate about making a meaningful impact in a new college grad position. Explore my latest projects to see how my skills and dedication can contribute to your team’s success.
+                        As a skilled developer with full-stack, embedded, and AI development experience, I&#39;m passionate about making a meaningful impact in a new college grad position. Explore my latest projects to see how my skills and dedication can contribute to your team&#39;s success.
                     </p>
                     <div>
                         <Link href="https://drive.google.com/file/d/1gN9-zqSw2XzPstFIb0ASKmMwsedTZfFr/view?usp=sharing">
