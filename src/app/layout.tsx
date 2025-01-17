@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/images/logo.png" />
+        <link rel="icon" href="/images/logo.png?v=1.0" />
       </head>
       <body className="flex flex-col">
         <div className="pb-24"> 
