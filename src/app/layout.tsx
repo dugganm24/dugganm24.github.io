@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/images/logo.png?v=1.0" />
+        <link rel="icon" href="https://dugganm24.github.io/images/logo.png" />
       </head>
       <body className="flex flex-col">
         <div className="pb-24"> 
