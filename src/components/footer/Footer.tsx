@@ -8,7 +8,7 @@ const Footer = () => {
     const currentYear: number = new Date().getFullYear(); // Get the current year
 
     return (
-        <footer className="footer border-t border-t-[#33353F] text-white py-4">
+        <footer className="footer border-t border-t-[#33353F] text-white py-4 bg-[#121212] bg-opacity-100">
             {/* First Row */}
             <div className="flex justify-center items-center">
                 <p className="text-[#BFBCBC] text-lg">

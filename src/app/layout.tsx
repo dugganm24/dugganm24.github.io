@@ -19,7 +19,7 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="https://dugganm24.github.io/images/logo.png" />
       </head>
-      <body className="flex flex-col">
+      <body className="flex flex-col bg-[#121212]">
         <div className="pb-24"> 
           <NavBar />
         </div>
