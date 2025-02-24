@@ -51,7 +51,7 @@ const projectsData = [
         description: "Coming soon!",
         image: "/images/coming_soon.jpg",
         tag: ["All"],
-        gitUrl: "https://github.com/dugganm24/MCS-Capstone",
+        gitUrl: "https://github.com/dugganm24/WPI-Course-Tracker",
     },
 ]
 
