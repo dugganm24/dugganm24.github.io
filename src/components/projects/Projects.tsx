@@ -9,7 +9,7 @@ const projectsData = [
         id: 1,
         title: "AI-Powered 3D Facial Generator for Robotic Interface",
         description: "Developing a facial generator for a robotic interface using Audio2Face and Unreal Engine to create realistic, speech-synced animations, with real-time interaction enabled through the Audio2Face API.",
-        image: "/images/MQP.png",
+        image: "/images/MQP.jpg",
         tag: ["All", "AI"],
         gitUrl: "https://github.com/dugganm24/MQP",
     },
