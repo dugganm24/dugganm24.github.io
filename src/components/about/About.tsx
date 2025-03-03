@@ -126,7 +126,7 @@ const About = () => {
                     </div>
                 </div>
 
-                {/* Education section */}
+                {/* Education section */} 
                 <div className="max-w-3xl w-full">
                     <h2 className="text-4xl font-bold text-white mb-8 text-center">Education</h2>
                     <div className="mb-6 text-left">
