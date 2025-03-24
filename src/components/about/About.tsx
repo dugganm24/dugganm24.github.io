@@ -104,6 +104,17 @@ const About = () => {
                     <h2 className="text-4xl font-bold text-white mb-8 text-center">Experience</h2>
                     <div className="mb-6 text-left">
                         <h3 className="text-xl font-semibold text-white">
+                            Incoming Software Engineer I <span className="text-[#00FFC8]">@Silicon Labs</span>
+                        </h3>
+                        <p className="text-base text-[#BFBCBC]">
+                            June 2025 – Present | Boston, MA
+                        </p>
+                        <p>
+                            Joining a team responsible for contributing to the Matter open-source protocol, helping to connect compatible smart home devices from different ecosystems.
+                        </p>
+                    </div>
+                    <div className="mb-6 text-left">
+                        <h3 className="text-xl font-semibold text-white">
                             Product Management Intern <span className="text-[#00FFC8]">@Silicon Labs</span>
                         </h3>
                         <p className="text-base text-[#BFBCBC]">
