@@ -47,9 +47,9 @@ const projectsData = [
     },
     {
         id: 6,
-        title: "MCS Capstone",
-        description: "Coming soon!",
-        image: "/images/coming_soon.jpg",
+        title: "WPI Course Tracker",
+        description: "Full-stack application for WPI students to track their courses and degree progress using AWS resources to develop a JavaScript backend, with a React frontend hosted on AWS allowing users to interact with the site through REST API calls.",
+        image: "/images/course_tracker.jpeg",
         tag: ["All"],
         gitUrl: "https://github.com/dugganm24/WPI-Course-Tracker",
     },

@@ -10,12 +10,12 @@ const TAB_DATA = [
         id: "languages",
         content: (
             <ul className="list-disc pl-4">
-                <li className="pb-1">C</li>
+                <li className="pb-1">C/C++</li>
                 <li className="pb-1">Python</li>
                 <li className="pb-1">TypeScript</li>
                 <li className="pb-1">JavaScript</li>
+                <li className="pb-1">Kotlin</li>
                 <li className="pb-1">SQL</li>
-                <li className="pb-1">HTML/CSS</li>
             </ul>
         )
     },
@@ -122,17 +122,6 @@ const About = () => {
                         </p>
                         <p>
                             Worked on a team responsible for improving the developer experience at Silicon Labs by improving the out of box experience, prioritizing features of Studio v6, developing a kit selector, and improving information consistency across hardware kit webpages.                         
-                        </p>
-                    </div>
-                    <div className="text-left">
-                        <h3 className="text-xl font-semibold text-white">
-                            Arch Energy Intern <span className="text-[#00FFC8]">@Consigli</span>
-                        </h3>
-                        <p className="text-base text-[#BFBCBC]">
-                            May 2023 – March 2024 | Milford, MA
-                        </p>
-                        <p>
-                            Worked on a team responsible for improving the energy usage of clients by designing solar power systems for large-scale university and commercial projects and programming lights for optimized energy usage.                         
                         </p>
                     </div>
                 </div>
