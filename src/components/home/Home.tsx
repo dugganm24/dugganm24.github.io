@@ -30,7 +30,7 @@ const Home = () => {
                         As a skilled developer with full-stack, embedded, and AI development experience, I&#39;m passionate about making a meaningful impact through innovative software solutions. Explore my projects and experience to see how my skills can contribute to driving success and delivering value in collaborative team environments.
                     </p>
                     <div>
-                        <Link href="https://drive.google.com/file/d/1gN9-zqSw2XzPstFIb0ASKmMwsedTZfFr/view?usp=sharing">
+                        <Link href="https://drive.google.com/file/d/1h0od2w2JKW-aWECUrTH15uLxnL32ZigG/view?usp=drive_link">
                             <button className="px-10 py-3 w-full sm:w-fit rounded-full mr-4 bg-[#00FFC8] bg-opacity-80 hover:scale-105 transform transition-all duration-200">Resume</button>
                         </Link>
                         <Link href="/contact">
