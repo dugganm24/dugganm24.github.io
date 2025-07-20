@@ -6,9 +6,9 @@ import Link from 'next/link';
 
 const Home = () => {
     return (
-        <section className="py-4 lg:py-60">
-            <div className="grid grid-cols-1 lg:grid-cols-12">
-                <div className="col-span-5 place-self-center mb-4 lg:mb-0">
+        <section className="flex items-center justify-center min-h-screen py-0 -mt-20">
+            <div className="flex flex-col lg:flex-row items-center justify-center w-full max-w-5xl px-4">
+                <div className="mb-8 lg:mb-0 lg:mr-12 flex justify-center">
                     <div className="rounded-full bg-[#00FFC8] w-[250px] h-[250px] lg:w-[325px] lg:h-[325px] relative"
                         style={{ border: '10px solid #00FFC8' }}> 
                         <Image 
@@ -20,14 +20,14 @@ const Home = () => {
                         />
                     </div>                  
                 </div> 
-                <div className="col-span-7 place-self-center text-center sm:text-left">
+                <div className="flex flex-col items-center lg:items-start text-center lg:text-left">
                     <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
                         <span className="text-[#00FFC8]">Hello, I&#39;m</span>
                         <br />
                         Michael Duggan
                     </h1>
                     <p className="text-[#BFBCBC] text-base sm:text-lg lg:text-xl mb-6">
-                        As a skilled developer with full-stack, embedded, and AI development experience, I&#39;m passionate about making a meaningful impact in a new college grad position. Explore my latest projects to see how my skills and dedication can contribute to your team&#39;s success.
+                        As a skilled developer with full-stack, embedded, and AI development experience, I&#39;m passionate about making a meaningful impact through innovative software solutions. Explore my projects and experience to see how my skills can contribute to driving success and delivering value in collaborative team environments.
                     </p>
                     <div>
                         <Link href="https://drive.google.com/file/d/1gN9-zqSw2XzPstFIb0ASKmMwsedTZfFr/view?usp=sharing">

@@ -58,7 +58,7 @@ const Contact = () => {
                     Let&#39;s Connect
                 </h2>
                 <p className="text-[#BFBCBC] mb-4 max-w-md">
-                    As an upcoming new college grad, I&#39;m currently looking for entry-level software engineering positions. My inbox is always open, don’t hesitate to reach out.
+                    I recently graduated and am currently working as a Software Engineer. I&#39;m always open to connecting and exploring new opportunities in software engineering. Feel free to reach out anytime - my inbox is open!
                 </p>
                 <div className="socials flex flex-row gap-2">
                    <Link href="https://github.com/dugganm24">

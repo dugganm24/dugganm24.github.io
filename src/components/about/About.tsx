@@ -69,13 +69,13 @@ const About = () => {
                 <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
                     <h2 className="text-4xl font-bold text-white mb-4 text-left">About Me</h2>
                     <p className="text-base md:text-lg mb-4">
-                        Hi, I’m <span className="text-[#00FFC8] font-semibold">Michael Duggan</span>, a senior at Worcester Polytechnic Institute (WPI) pursuing a B.S. in Electrical and Computer Engineering and a Master of Computer Science. With experience in embedded systems, full-stack development, and AI, I’m passionate about creating innovative solutions that deliver practical impact in collaborative team environments.
+                        Hi, I’m <span className="text-[#00FFC8] font-semibold">Michael Duggan</span>, a Software Engineer I at Silicon Labs with a B.S. in Electrical and Computer Engineering and a Master of Computer Science from Worcester Polytechnic Institute (WPI). With hands-on experience in embedded systems, full-stack development, and AI, I’m passionate about creating innovative solutions that deliver practical impact in collaborative team environments.
                     </p>
                     <p className="text-base md:text-lg mb-4">
                         My passion lies in solving meaningful problems and creating impactful experiences for end users. I thrive in collaborative environments where creativity and technical expertise come together to make complex ideas a reality.
                     </p>
                     <p className="text-base md:text-lg">
-                        As an entry-level software engineer, I will bring a commitment to quality, adaptability, and continuous learning. I am excited to contribute my skills and passion to new opportunities and help create solutions that innovate and deliver value.
+                        As a Software Engineer, I bring a strong commitment to quality, adaptability, and continuous learning. I am excited to contribute my skills and passion to new opportunities and help create solutions that innovate and deliver value.
                     </p>
                 </div>
 
@@ -104,13 +104,13 @@ const About = () => {
                     <h2 className="text-4xl font-bold text-white mb-8 text-center">Experience</h2>
                     <div className="mb-6 text-left">
                         <h3 className="text-xl font-semibold text-white">
-                            Incoming Software Engineer I <span className="text-[#00FFC8]">@Silicon Labs</span>
+                            Software Engineer I <span className="text-[#00FFC8]">@Silicon Labs</span>
                         </h3>
                         <p className="text-base text-[#BFBCBC]">
                             June 2025 – Present | Boston, MA
                         </p>
                         <p>
-                            Joining a team responsible for contributing to the Matter open-source protocol, helping to connect compatible smart home devices from different ecosystems.
+                            Contributing to the Matter open-source protocol, developing cross-platform smart home connectivity features in Silicon Labs’ SDK and the official Connected Home over IP repository.
                         </p>
                     </div>
                     <div className="mb-6 text-left">
