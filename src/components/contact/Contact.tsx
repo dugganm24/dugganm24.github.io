@@ -5,6 +5,7 @@ import emailjs from "@emailjs/browser";
 import { motion } from "framer-motion";
 import GithubIcon from "../../../public/github-icon.svg";
 import LinkedinIcon from "../../../public/linkedin-icon.svg";
+import SiliconLabsIcon from "../../../public/silabs-icon.svg";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -60,13 +61,16 @@ const Contact = () => {
                 <p className="text-[#BFBCBC] mb-4 max-w-md">
                     I recently graduated and am currently working as a Software Engineer. I&#39;m always open to connecting and exploring new opportunities in software engineering. Feel free to reach out anytime - my inbox is open!
                 </p>
-                <div className="socials flex flex-row gap-2">
+                <div className="socials flex flex-row gap-2 items-center">
                    <Link href="https://github.com/dugganm24">
                         <Image className="hover:opacity-80" src={GithubIcon} alt="Github Icon" />
                     </Link>
                     <Link href="https://www.linkedin.com/in/mpduggan/">
                         <Image className="hover:opacity-80" src={LinkedinIcon} alt="Linkedin Icon" />
                     </Link> 
+                    <Link href="https://github.com/miduggan24/">
+                        <Image className="hover:opacity-80" src={SiliconLabsIcon} alt="Silabs Icon" />
+                    </Link>
                 </div>
             </div>
             <div>

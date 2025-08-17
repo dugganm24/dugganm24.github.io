@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 import GithubIcon from "../../../public/github-icon.svg";
 import LinkedinIcon from "../../../public/linkedin-icon.svg";
+import SiliconLabsIcon from "../../../public/silabs-icon.svg";
 import Image from "next/image";
 
 const Footer = () => {
@@ -29,6 +30,13 @@ const Footer = () => {
                     <Image 
                         src={LinkedinIcon} 
                         alt="LinkedIn Icon" 
+                        className="hover:opacity-80 transition-opacity"
+                    />
+                </Link>
+                <Link href="https://github.com/miduggan24" aria-label="Silabs Github Profile">
+                    <Image 
+                        src={SiliconLabsIcon} 
+                        alt="Silabs Icon" 
                         className="hover:opacity-80 transition-opacity"
                     />
                 </Link>
