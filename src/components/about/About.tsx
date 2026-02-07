@@ -10,10 +10,10 @@ const TAB_DATA = [
         id: "languages",
         content: (
             <ul className="list-disc pl-4">
-                <li className="pb-1">C/C++</li>
+                <li className="pb-1">C/C++ (Embedded Systems)</li>
                 <li className="pb-1">Python</li>
-                <li className="pb-1">TypeScript</li>
-                <li className="pb-1">JavaScript</li>
+                <li className="pb-1">TypeScript & JavaScript</li>
+                <li className="pb-1">Bash</li>
                 <li className="pb-1">Kotlin</li>
                 <li className="pb-1">SQL</li>
             </ul>
@@ -27,9 +27,9 @@ const TAB_DATA = [
                 <li className="pb-1">AWS</li>
                 <li className="pb-1">Linux</li>
                 <li className="pb-1">Git</li>
-                <li className="pb-1">Database Structures</li>
-                <li className="pb-1">Algorithms</li>
-                <li className="pb-1">Figma</li>
+                <li className="pb-1">Github Actions & Jenkins (CI/CD)</li>
+                <li className="pb-1">Docker</li>
+                <li className="pb-1">Data Structures and Algorithms</li>
             </ul>
         )
     },
@@ -43,7 +43,7 @@ const TAB_DATA = [
                 <li className="pb-1">Computer Vision</li>
                 <li className="pb-1">Reinforcement Learning</li>
                 <li className="pb-1">PyTorch</li>
-                <li className="pb-1">GAN</li>
+                <li className="pb-1">MCP</li>
             </ul>
         )
     }
@@ -110,7 +110,7 @@ const About = () => {
                             June 2025 – Present | Boston, MA
                         </p>
                         <p>
-                            Contributing to the Matter open-source protocol, developing cross-platform smart home connectivity features in Silicon Labs’ SDK and the official Connected Home over IP repository.
+                            Contributing to the Matter open-source protocol, developing cross-platform smart home connectivity features in Silicon Labs’ SDK and the official Matter CSA repo.
                         </p>
                     </div>
                     <div className="mb-6 text-left">

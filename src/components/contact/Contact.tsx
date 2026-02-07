@@ -24,7 +24,7 @@ const Contact = () => {
 
         emailjs
             .send(
-                "service_u8p4yzd", // Service ID
+                "service_5eatuy9", // Service ID
                 "template_2b3b627", // Template ID
                 {
                     email: form.email,
@@ -59,7 +59,7 @@ const Contact = () => {
                     Let&#39;s Connect
                 </h2>
                 <p className="text-[#BFBCBC] mb-4 max-w-md">
-                    I recently graduated and am currently working as a Software Engineer. I&#39;m always open to connecting and exploring new opportunities in software engineering. Feel free to reach out anytime - my inbox is open!
+                    I recently graduated and am currently working as a Software Engineer on the Matter team at Silicon Labs. I&#39;m always open to connecting and exploring new opportunities in software engineering or product management. Feel free to reach out anytime - my inbox is always open!
                 </p>
                 <div className="socials flex flex-row gap-2 items-center">
                    <Link href="https://github.com/dugganm24">
